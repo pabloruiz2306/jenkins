@@ -17,6 +17,6 @@ public class HolaController {
     public String hola(@RequestParam(value = "nombre", required = false, defaultValue = "Mundo") String nombre,
 	    Model model) {
 	model.addAttribute("nombre", nombre);
-	return "hola2";
+	return "hola";
     }
 }
